@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+}
+
+.header ul {
+  display: flex;
+}
+
+.container-title {
+  display: flex;
+}
+
+.container-mid {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-images {
+  display: flex;
+}
+
+
