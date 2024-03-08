@@ -3,6 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     font: 16px 'Roboto', sans-serif;
+    align-items: center;
 }
 
 .header {
@@ -82,7 +83,7 @@ body {
 
 .container-quotes {
   background-color:#e5e7eb86;
-  padding: 0px 16px;
+  padding: 0px 100px;
 
 }
 
@@ -99,15 +100,24 @@ body {
 }
 
 .container-action {
-  background-color: lightgreen;
+  display: flex;
+  background-color: #3882F6;
   border-radius: 10px;
   padding: 0px 20px 10px 20px;
+  max-width: 400px;
+  max-height: 150px;
+  flex: auto;
+  align-items: center;
+  margin: 100px;
 }
 
 .footer {
   display: flex;
-  background-color: gray;
+  background-color: #1F2937 ;
   align-items: flex-end;
+  justify-content: center;
+  width: 100%;
+  color: white;
 }
 
 button {
@@ -118,3 +128,10 @@ button {
   border-radius: 4px;
 }
 
+.container-action button {
+  border: 1px solid #F9FAF8;
+}
+
+.container-action .left-text {
+  color: white;
+}
