@@ -3,7 +3,6 @@ body {
     display: flex;
     flex-direction: column;
     font: 16px 'Roboto', sans-serif;
-
 }
 
 .header {
@@ -69,7 +68,6 @@ body {
 .container-images {
   display: flex;
   gap: 32px;
-  margin-bottom: 32px;
 }
 
 .container-images p {
@@ -119,3 +117,4 @@ button {
   border: none;
   border-radius: 4px;
 }
+
